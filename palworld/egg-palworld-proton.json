@@ -149,6 +149,16 @@
             "user_editable": true,
             "rules": "required|string|in:Steam,Xbox",
             "field_type": "text"
-        }
+        },
+                {
+            "name": "WINEDLLOVERRIDES",
+            "description": "",
+            "env_variable": "dwmapi=n,b",
+            "default_value": "dwmapi=n,b",
+            "user_viewable": false,
+            "user_editable": true,
+            "rules": "nullable|string|max:128",
+            "field_type": "text"
+        },
     ]
 }
